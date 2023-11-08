@@ -188,16 +188,18 @@
       </li>
     </ul>
 
+    <h1 class="display-6 mt-4 mb-4">Photos of our cars</h1>
+
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="citroen.jpg" class="d-block w-100" alt="citroen" />
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="SkodaCar.jpg" class="d-block w-100" alt="skoda" />
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src="FastCar.jpg" class="d-block w-100" alt="fast car" />
         </div>
       </div>
       <button
@@ -218,6 +220,52 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-primary mt-5"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      Our Number and Address
+    </button>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Address and number
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Number: 775 274 194<br />
+            Address: MadeUpStreet 435, Budapest
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script
